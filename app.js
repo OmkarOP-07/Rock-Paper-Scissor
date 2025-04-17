@@ -4,7 +4,7 @@ let userOP = document.querySelector("#my-score");
 let compOP = document.querySelector("#comp-score");
 let optext = document.querySelector(".scoreOP");
 let rstbtn = document.querySelector("#rstbtn")
-let username = input(alert("Enter your name: "));
+let username = alert(input("Enter your name"));
 let user = document.querySelector("#username");
 
 user.innerText = username;
